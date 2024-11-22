@@ -41,7 +41,7 @@ public class Testing
         a.worldY = 7.87f;
         
         for (int i = 0; i < 10; i++) {
-            a.worldX += 1;
+            a.worldX -= 1;
            
         }
         AltVector3 pos = a.GetWorldPosition();

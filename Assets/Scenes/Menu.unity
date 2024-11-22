@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -253,12 +254,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &62652545
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,7 +729,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668652775}
   m_CullTransparentMesh: 1
---- !u!1001 &842096085
+--- !u!1001 &1180030403
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -778,7 +779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1834351184126580122, guid: 8c0a847b0f94636429cc182ad36a23ac, type: 3}
       propertyPath: InstrumentationSettings.UID
-      value: dccbd7129c5e46313b1e98511a59ff39c6b131f01731645256
+      value: 90590e6e41affb090596750002d716e97401a02d1732238812
       objectReference: {fileID: 0}
     - target: {fileID: 3857838456431626832, guid: 8c0a847b0f94636429cc182ad36a23ac, type: 3}
       propertyPath: m_Name
@@ -1212,4 +1213,4 @@ SceneRoots:
   - {fileID: 1723646452}
   - {fileID: 62652548}
   - {fileID: 1620612799}
-  - {fileID: 842096085}
+  - {fileID: 1180030403}
